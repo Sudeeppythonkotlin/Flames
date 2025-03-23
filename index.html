@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generate your personal FLAMES love calculator link and share it with friends. Discover your relationship fate—Friends, Lovers, and more—in this fun, interactive game.">
+<meta name="monetag" content="3ab7b538298638d5030714554d86954f">
+    <title>FLAMES - Create & Share</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FLAMES Game 🔥</h1>
+        <p>Enter your name to generate a FLAMES game link:</p>
+        <input type="text" id="hostName" placeholder="Your Name">
+        <button onclick="generateLink()">Generate & Share</button>
+        
+        <div id="shareSection" class="hidden">
+            <p>Share this link with your friends:</p>
+            <input type="text" id="generatedLink" readonly>
+            <button onclick="copyLink()">Copy Link</button>
+            <a id="instagramShare" target="_blank">Share on Instagram</a>
+        </div>
+        
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
